@@ -1,0 +1,21 @@
+# Instalación 
+npm install -g less
+
+# Observador de less
+npm install -g less-watch-compiler
+
+uso: less-watch-compiler [options] <source_dir> <destination_dir>
+
+guia: https://github.com/jonycheung/deadsimple-less-watch-compiler
+
+# Compilar 
+lessc nombreDeTuArchivoLess.less nombreDeTuCSS.css
+
+# Variales en less
+- Se declaran con @
+
+# Anidaciones:
+BEM: Block Element Modifier
+
+-- Modificador
+__ Element
